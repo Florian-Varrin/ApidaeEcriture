@@ -14,7 +14,7 @@ class ApidaeEcriture extends ApidaeCore
 {
     public $skipValidation = false;
 
-    public string $onValidationFail = null;
+    public $onValidationFail = null;
 
     public $statuts_api_ecriture = [
         'CREATION_VALIDATION_SKIPPED', 'CREATION_VALIDATION_ASKED',
@@ -30,9 +30,9 @@ class ApidaeEcriture extends ApidaeCore
 
     public $last_id = null;
 
-    public string $projet_ecriture_clientId;
-    protected string $projet_ecriture_secret;
-    public int $projet_ecriture_projectId;
+    public $projet_ecriture_clientId;
+    protected $projet_ecriture_secret;
+    public $projet_ecriture_projectId;
 
     protected $lastAutorisation;
 
