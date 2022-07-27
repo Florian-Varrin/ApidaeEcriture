@@ -12,8 +12,8 @@ use PierreGranger\ApidaeCore;
 
 class ApidaeEcriture extends ApidaeCore
 {
-    protected bool $skipValidation = false;
-    protected string $onValidationFail ;
+    protected $skipValidation = false;
+    protected $onValidationFail ;
 
     public const STATUS_API_ECRITURE = [
         'CREATION_VALIDATION_SKIPPED', 'CREATION_VALIDATION_ASKED',
